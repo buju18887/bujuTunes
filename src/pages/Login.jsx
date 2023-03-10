@@ -1,7 +1,7 @@
 import { FaHeadphones, FaSpotify } from "react-icons/fa";
 
 const AUTH_URL =
-  "https://accounts.spotify.com/authorize?client_id=b7a585475c4847eb87196c1ae984624e&response_type=code&redirect_uri=http://localhost:5173&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state";
+  "https://accounts.spotify.com/authorize?client_id=b7a585475c4847eb87196c1ae984624e&response_type=code&redirect_uri=https://bujutunes.onrender.com&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state";
 
 function Login() {
   return (
